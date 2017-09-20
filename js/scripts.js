@@ -1,6 +1,11 @@
 var leapYear = function(year) {
-  return false;
+  if (year % 4 === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
+
 
 // jquery user interface logic here.
 $(document).ready(function() {
